@@ -1,0 +1,18 @@
+.header__subtitle {
+  align-items: center;
+  text-align: center;
+  min-height: 29px;
+  font-size: 12px;
+  letter-spacing: 2px;
+
+  color: $color-secondary;
+  background-color: $bg-color-black;
+  padding-top: 7px;
+  padding-bottom: 7px;
+
+  transition: color 250ms $timing-function;
+
+  &:hover {
+    color: $color-orange;
+  }
+}
