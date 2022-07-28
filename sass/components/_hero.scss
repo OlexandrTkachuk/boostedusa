@@ -1,0 +1,29 @@
+.hero {
+  text-align: center;
+  background-image: url(../images/hero/hero-background.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  min-height: 810px;
+  padding-top: 53px;
+  margin: 0 auto;
+}
+
+.hero__title {
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 1.15;
+
+  margin-bottom: 14px;
+}
+
+.hero__text {
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 22px;
+}
+
+.hero__button:not(:last-child) {
+  margin-right: 12px;
+}

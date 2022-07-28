@@ -1,0 +1,33 @@
+.city {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 736px;
+  background-image: url(../images/city/city.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 44px;
+}
+
+.city__suptext {
+  letter-spacing: 1px;
+}
+
+.city__title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.12;
+  text-align: center;
+
+  margin: 11px auto 15px;
+}
+
+.city__subtext {
+  max-width: 488px;
+  text-align: center;
+  letter-spacing: 1px;
+
+  margin: 0 auto;
+  margin-bottom: 20px;
+}

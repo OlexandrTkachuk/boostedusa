@@ -1,0 +1,47 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+
+  background-color: $bg-color-footer;
+}
+
+.footer__logo {
+  margin-right: 240px;
+}
+
+.footer__nav {
+  margin-right: 256px;
+}
+
+.footer__title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.footer__link {
+  font-size: 13px;
+  line-height: 1.62;
+}
+
+.footer__about {
+  max-width: 367px;
+}
+
+.footer__text {
+  line-height: 1.5;
+}
+
+.address {
+  font-style: normal;
+  font-size: 13px;
+  line-height: 1.62;
+  color: $color-black;
+  margin-top: 20px;
+
+  & span {
+    display: block;
+  }
+}

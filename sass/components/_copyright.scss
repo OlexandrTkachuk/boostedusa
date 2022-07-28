@@ -1,0 +1,20 @@
+.copyright {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+.copyright__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright__item {
+  &:not(:last-child) {
+    margin-right: 4px;
+  }
+}

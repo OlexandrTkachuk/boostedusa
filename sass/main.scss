@@ -4,7 +4,20 @@
 @import './utils/container';
 @import './utils/visually-hidden';
 
+// ui
+@import './ui/button';
+
 // components
 @import './components/header';
 @import './components/header-subtitle';
 @import './components/page-nav';
+@import './components/hero';
+@import './components/companies';
+@import './components/shop';
+@import './components/city';
+@import './components/rev';
+@import './components/stock';
+@import './components/market';
+@import './components/about';
+@import './components/footer';
+@import './components/copyright';

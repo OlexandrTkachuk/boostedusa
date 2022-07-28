@@ -1,0 +1,27 @@
+.companies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 83px;
+  background-color: $bg-color-black;
+}
+
+.companies-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.companies__item:not(:last-child) {
+  margin-right: 122px;
+}
+
+.companies__link {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  color: $color-white;
+}

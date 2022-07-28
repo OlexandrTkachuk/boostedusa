@@ -1,0 +1,32 @@
+.stock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stock__name {
+  position: relative;
+}
+
+.stock__info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.stock__text {
+  font-size: 25px;
+  line-height: 1.2;
+  text-align: center;
+  color: $color-white;
+}
+
+.stock__cta {
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+  color: $color-white;
+
+  margin-top: 15px;
+}
